@@ -1,7 +1,6 @@
 package com.training.ioexamples;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -27,9 +26,12 @@ public String addBooks(Book[] bks){
 
 public void printBooks(){
 	try {
+		
+		
 		FileReader fr = new FileReader("Books.txt");
 		BufferedReader br = new BufferedReader(fr);
 		String line=null;
+		
 		try 
 		{
 			while(( line=br.readLine()) !=null) {

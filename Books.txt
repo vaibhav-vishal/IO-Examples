@@ -1,3 +1,4 @@
 Book [bookNumber=101, bookName=Maths 101, author=Maths teacher]
 Book [bookNumber=102, bookName=Physics 101, author=Physics teacher]
 Book [bookNumber=103, bookName=Chemistry 101, author=Chemistry teacher]
+Book [bookNumber=104, bookName=Biology 101, author=Biology teacher]
